@@ -1,0 +1,159 @@
+/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+body {
+  font-family: 'Dancing Script', cursive;
+}
+
+#header {
+  background: #6b00b3;
+  height: 100px;
+}
+
+a.nav-link:hover {
+  color: #6b00b3;
+}
+
+#Welcome {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6b00b3), to(#f2f2f2));
+  background-image: linear-gradient(#6b00b3, #f2f2f2);
+}
+
+#Welcome h1 {
+  text-shadow: 1px 1px 10px #000;
+  font-size: 80px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #f2f2f2;
+}
+
+iframe {
+  width: 460px;
+  height: 450px;
+}
+
+#map {
+  width: 450px;
+  border: solid gray 1px;
+  margin: 0;
+  height: 300px;
+}
+
+#map:hover {
+  opacity: 0.5;
+}
+
+#footer {
+  background-color: #666699;
+  color: white;
+}
+
+hr.light {
+  border-bottom: solid 1px #cccccc;
+  width: 70%;
+}
+
+.social {
+  font-size: 40px;
+}
+
+.fa-twitter:hover {
+  color: #aab8c2;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
+.fa-google:hover {
+  color: #ea4335;
+}
+
+/*--media queries --*/
+/*Large devices (desktops, less than 1200px)*/
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+  iframe {
+    width: 320px;
+    height: 450px;
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+  iframe {
+    width: 480px;
+    height: 300px;
+  }
+  .card {
+    width: 400px;
+  }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+  .social {
+    font-size: 25px;
+  }
+  #Welcome h1 {
+    font-size: 60px;
+  }
+  #font {
+    font-size: 40px;
+  }
+  iframe {
+    width: 380px;
+    height: 300px;
+    /*padding-left: ;*/
+    margin: 0 !important;
+  }
+  .card {
+    width: 300px;
+  }
+}
+
+/*--background image*/
+figure {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixed {
+  background-image: url("file:///D:/photos/IMG_1221.JPG");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/*-- bootstrap padding-- */
+[class*="col-"] {
+  padding: 1rem;
+}
