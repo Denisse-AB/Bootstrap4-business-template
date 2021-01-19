@@ -1,7 +1,6 @@
-/*# sourceMappingURL=style.css.map */
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
 body {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 #header {
@@ -79,26 +78,6 @@ hr.light {
 }
 
 /*--media queries --*/
-/*Large devices (desktops, less than 1200px)*/
-/* Medium devices (tablets, less than 992px)*/
-@media (max-width: 992px) {
-  iframe {
-    width: 320px;
-    height: 450px;
-  }
-}
-
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 768px) {
-  iframe {
-    width: 480px;
-    height: 300px;
-  }
-  .card {
-    width: 400px;
-  }
-}
-
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 576px) {
   .social {
@@ -113,11 +92,29 @@ hr.light {
   iframe {
     width: 340px;
     height: 300px;
-    /*padding-left: ;*/
     margin: 0 !important;
   }
   .card {
     width: 300px;
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+  iframe {
+    width: 480px;
+    height: 300px;
+  }
+  .card {
+    width: 400px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+  iframe {
+    width: 320px;
+    height: 450px;
   }
 }
 
@@ -156,3 +153,4 @@ figure {
 [class*="col-"] {
   padding: 1rem;
 }
+/*# sourceMappingURL=style.css.map */

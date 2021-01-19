@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
 $color: #bba4ca;
+$dancing-font: 'Dancing Script';
 
 body {
-  font-family: 'Dancing Script', cursive;
+  font-family: $dancing-font, cursive;
 }
 #header {
   background: #6b00b3;
