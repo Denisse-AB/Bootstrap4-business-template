@@ -64,16 +64,24 @@ hr.light {
   color: #ea4335;
 }
 /*--media queries --*/
-/*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-
-}
-
-/* Medium devices (tablets, less than 992px)*/
-@media (max-width: 992px) {
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+  .social {
+    font-size: 25px;
+  }
+  #Welcome h1 {
+    font-size: 60px;
+  }
+  #font {
+    font-size: 40px;
+  }
   iframe {
-    width: 320px;
-    height: 450px;
+    width: 340px;
+    height: 300px;
+    margin: 0 !important;
+  }
+  .card {
+    width: 300px;
   }
 }
 
@@ -86,31 +94,14 @@ hr.light {
   .card {
     width: 400px;
   }
-
 }
 
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 576px) {
-
-.social {
-  font-size: 25px;
-}
-#Welcome h1 {
-  font-size: 60px;
-}
-#font {
-  font-size: 40px;
-}
-iframe {
-  width: 340px;
-  height: 300px;
-  /*padding-left: ;*/
-  margin: 0 !important;
-}
-.card {
-  width: 300px;
-}
-
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+  iframe {
+    width: 320px;
+    height: 450px;
+  }
 }
 
 /*--background image*/
@@ -148,26 +139,3 @@ figure {
 [class*="col-"] {
   padding: 1rem;
 }
-
-/*
-Extra sm (xs) devices (portrait phones less than 576px)
-No media query since this is the default in bootstrap.
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-
-}
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
- }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) {
-
-}
-Extra large (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
-*/
