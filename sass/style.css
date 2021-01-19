@@ -139,7 +139,7 @@ figure {
 }
 
 #fixed {
-  background-image: url("file:///D:/photos/IMG_1221.JPG");
+  background-image: url("/images/keyboard.JPG");
   position: fixed;
   display: block;
   top: 0;
