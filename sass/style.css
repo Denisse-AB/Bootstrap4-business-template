@@ -111,7 +111,7 @@ hr.light {
     font-size: 40px;
   }
   iframe {
-    width: 380px;
+    width: 350px;
     height: 300px;
     /*padding-left: ;*/
     margin: 0 !important;
@@ -139,7 +139,6 @@ figure {
 }
 
 #fixed {
-  background-image: url("/images/keyboard.JPG");
   position: fixed;
   display: block;
   top: 0;
